@@ -98,7 +98,11 @@ def scrape_all():
     # Stop webdriver and return data
     browser.quit()
     return data
+    
+if __name__ == "__main__":
 
+    # If running as script, print scraped data
+    print(scrape_all())
 
 
 
